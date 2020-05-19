@@ -13,4 +13,10 @@ public class LoginController {
 
         return "hello";
     }
+
+    @RequestMapping("/book")
+    public String    selectBook(){
+
+        return  "this is a book";
+    }
 }
