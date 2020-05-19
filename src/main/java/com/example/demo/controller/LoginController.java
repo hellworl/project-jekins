@@ -26,7 +26,7 @@ public class LoginController {
         return  "this is a movie";
     }
 
-    @RequestMapping("/meeting")
+    @RequestMapping("/meetinginfo")
     public String    meet(){
 
         return  "this is a meet";
