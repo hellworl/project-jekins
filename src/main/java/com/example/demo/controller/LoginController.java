@@ -19,4 +19,10 @@ public class LoginController {
 
         return  "this is a book";
     }
+
+    @RequestMapping("/movie")
+    public String    movie(){
+
+        return  "this is a movie";
+    }
 }
