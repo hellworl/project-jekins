@@ -25,4 +25,10 @@ public class LoginController {
 
         return  "this is a movie";
     }
+
+    @RequestMapping("/hello")
+    public String    meet(){
+
+        return  "this is a meet";
+    }
 }
